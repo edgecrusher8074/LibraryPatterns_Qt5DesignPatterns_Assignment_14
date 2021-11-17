@@ -1,5 +1,5 @@
-#ifndef PLUGINONE_H
-#define PLUGINONE_H
+#ifndef PLUGINTWO_H
+#define PLUGINTWO_H
 
 #include <QObject>
 #include <QDebug>
@@ -25,4 +25,4 @@ public:
     void execute(QString command, QStringList args) override;
 };
 
-#endif // PLUGINONE_H
+#endif // PLUGINTWO_H
